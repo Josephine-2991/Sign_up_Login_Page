@@ -1,0 +1,167 @@
+:root{
+    --policy-color: oklch(0.551 0.027 264.364);
+    --heading-color: oklch(0.21 0.034 264.665);
+    --button_background: #F3F4F6;
+    --btn_color: #FFFFFF;
+
+
+
+    font-size: 10px;
+    font-family: ui-sans-serif,
+        system-ui,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    
+}
+
+
+.main_animation{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/savor-attic-62132250.figma.site_\ \(1\).png");
+    background-position: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.signup_Display{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 44.8rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2.6rem;
+    background-color: var(--btn_color);
+   
+}
+
+.signup_Display_image{
+    width: 8rem;
+    height: 8rem;
+    align-self: center;
+
+}
+
+/* Signuptext */
+.Signup_Text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    font-size: 3.0rem;
+    font-weight: 700;
+    color: var(--heading-color);
+    margin: 1rem;
+}
+
+.Signup_Text_Create{
+    font-size: 1.6rem;
+    color: var(--policy-color);
+    margin: 0rem;
+}
+
+/*Button_Section*/
+.button_section_parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 3rem;
+    width: 30rem;
+    align-self: center;
+        
+        /* border: 2px sold red; */
+
+}
+.button_section{
+    background-color: var(--button_background);
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0.5rem;
+
+}
+.btn{
+    border:none;
+    padding: 0.5rem 7.5rem;
+    background-color: var(--button_background);
+    /* border: 2px solid red; */
+    border-radius: 0.8rem;
+    color:rgb(30, 41, 59);
+    font-weight: 500;
+    font-size: 1.4rem;
+    }
+
+ .btn:active{
+    background-color: var(--btn_color),
+
+    }
+
+ .btn:hover{ background-color: var(--btn_color),
+        }
+
+/* Form */
+.form{
+    color: rgb(30, 41, 59);
+    display: flex;
+    flex-direction: column;
+}
+
+.label_input{
+    margin: 2rem 0; 
+    
+}
+
+.label{
+    font-weight: 500;
+    font-size: 1.4rem;
+  
+}
+
+.icons{
+    width: 14px;
+    height: 14px;
+}
+
+.fullname_Input{
+    display: flex;
+    gap: 0.8rem;
+    border: 1px solid var(--policy-color);
+    width: 36rem;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    margin-top: 0.8rem;
+    align-items: center;
+
+}
+
+.inputs{
+    border: none;
+}
+
+/* Terms of Service */
+
+.policy{
+   color: var(--policy-color);
+   font-size: 1.2rem;
+   text-align: center;
+}
+
+.copyright{
+    color: var(--policy-color);
+    font-size: 1.4rem;
+    text-align: center;
+}
+
