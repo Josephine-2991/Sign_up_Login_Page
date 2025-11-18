@@ -3,6 +3,7 @@
     --heading-color: oklch(0.21 0.034 264.665);
     --button_background: #F3F4F6;
     --btn_color: #FFFFFF;
+    --yellow_color: #E6A300;
 
 
 
@@ -20,7 +21,6 @@
 
 .main_animation{
     width: 100vw;
-    height: 100vh;
     background-image: url("../images/savor-attic-62132250.figma.site_\ \(1\).png");
     background-position: cover;
     background-repeat: no-repeat;
@@ -28,6 +28,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 20rem;
 }
 
 .signup_Display{
@@ -149,8 +150,49 @@
 
 .inputs{
     border: none;
+    outline: none;
 }
 
+
+
+/*help__Create_button_section*/
+
+.help_Create_button_section{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.botton{
+    padding: 15px;
+    width: 17rem;
+    border-radius: 1rem;
+
+}
+
+
+
+.help_button{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    outline: var(--button_background);
+    background-color: var(--button_background);
+    border: 1px solid var(--button_background)
+   
+
+}
+
+.create_botton{
+    background-color: var(--yellow_color);
+    border: none;
+    outline: none;
+}
+
+.font-icon{
+    color: var(--heading-color);
+}
 /* Terms of Service */
 
 .policy{
