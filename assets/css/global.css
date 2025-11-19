@@ -19,7 +19,7 @@
 }
 
 
-.main_animation{
+.main_Animation{
     width: 100vw;
     background-image: url("../images/savor-attic-62132250.figma.site_\ \(1\).png");
     background-position: cover;
@@ -44,7 +44,7 @@
    
 }
 
-.signup_Display_image{
+.signup_Display_Image{
     width: 8rem;
     height: 8rem;
     align-self: center;
@@ -52,27 +52,27 @@
 }
 
 /* Signuptext */
-.Signup_Text{
+.signup_Text{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.heading{
+.signup_Text_Heading{
     font-size: 3.0rem;
     font-weight: 700;
     color: var(--heading-color);
     margin: 1rem;
 }
 
-.Signup_Text_Create{
+.signup_Text_Create{
     font-size: 1.6rem;
     color: var(--policy-color);
     margin: 0rem;
 }
 
 /*Button_Section*/
-.button_section_parent{
+.button_Section_Parent{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,7 +84,7 @@
         /* border: 2px sold red; */
 
 }
-.button_section{
+.button_Section_Child{
     background-color: var(--button_background);
     border-radius: 0.8rem;
     display: flex;
@@ -94,7 +94,7 @@
     padding: 0.5rem;
 
 }
-.btn{
+.button_Section{
     border:none;
     padding: 0.5rem 7.5rem;
     background-color: var(--button_background);
@@ -105,33 +105,29 @@
     font-size: 1.4rem;
     }
 
- .btn:active{
-    background-color: var(--btn_color),
-
-    }
-
- .btn:hover{ background-color: var(--btn_color),
-        }
+ #login_Button{
+    background-color: var(--btn_color);
+ }
 
 /* Form */
-.form{
+.form_Section{
     color: rgb(30, 41, 59);
     display: flex;
     flex-direction: column;
 }
 
-.label_input{
+.label_Input{
     margin: 2rem 0; 
     
 }
 
-.label{
+.label_Fullname{
     font-weight: 500;
     font-size: 1.4rem;
   
 }
 
-.icons{
+.input_Icons{
     width: 14px;
     height: 14px;
 }
@@ -148,7 +144,7 @@
 
 }
 
-.inputs{
+.inputs_Value{
     border: none;
     outline: none;
 }
@@ -157,14 +153,14 @@
 
 /*help__Create_button_section*/
 
-.help_Create_button_section{
+.help_Create_Button_Section{
     display: flex;
     gap: 2rem;
     align-items: center;
     justify-content: center;
 }
 
-.botton{
+.botton_General{
     padding: 15px;
     width: 17rem;
     border-radius: 1rem;
@@ -173,7 +169,7 @@
 
 
 
-.help_button{
+.help_Button{
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -184,7 +180,7 @@
 
 }
 
-.create_botton{
+.create_Button{
     background-color: var(--yellow_color);
     border: none;
     outline: none;
@@ -195,13 +191,13 @@
 }
 /* Terms of Service */
 
-.policy{
+.privacy_Policy{
    color: var(--policy-color);
    font-size: 1.2rem;
    text-align: center;
 }
 
-.copyright{
+.copyright_Paragraph{
     color: var(--policy-color);
     font-size: 1.4rem;
     text-align: center;

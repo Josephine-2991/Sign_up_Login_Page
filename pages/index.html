@@ -1,75 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/global.css">
-     <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRISKEYTzcxUJHCzF3zLuf1WUb8Mk5sLjTj4Q&s" type="image/x-icon">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="../assets/css/global.css">
+      <link rel="shortcut icon"
+            href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRISKEYTzcxUJHCzF3zLuf1WUb8Mk5sLjTj4Q&s"
+            type="image/x-icon">
 
-    <script src="../assets/js/global.js"></script>
+      
 </head>
+
 <body>
-    <main class="main_animation">
-        <section class="signup_Display">
-            <img class="signup_Display_image"  src="../assets/images/login image.svg" alt="" >
+      <main class="main_Animation">
+            <section class="signup_Display login_Display">
+                  <img class="signup_Display_Image" src="../assets/images/login image.svg" alt="">
 
-            <div class="Signup_Text">
-                <h4 class="heading">Join TaskMaster</h4>
-                <p class="Signup_Text_Create">Create an account to boost your creativity</p>
-            </div>
+                  <div class="signup_Text" id="signup_Text">
+                        <h4 class="signup_Text_Heading">Join TaskMaster</h4>
+                        <p class="signup_Text_Create">Create an account to boost your creativity</p>
+                  </div>
 
-            <div class="button_section_parent">
-                <div class="button_section">
-                    <button class="btn">Login</button>
-                    <button class="btn">SignUp</button>
-               </div>
-            </div>
+                  <div class="button_Section_Parent">
+                        <div class="button_Section_Child">
+                              <button class="button_Section login_Button" id="login_Button">Login</button>
+                              <button class="button_Section signup_Button" id="signup_Button">SignUp</button>
+                        </div>
+                  </div>
 
+                  <form action="" class="form_Section">
+                        <div class="label_Input">
+                              <label class="label_Fullname fullname_Label" for="">Full Name*</label>
+                              <div class="fullname_Input">
+                                    <img src="../assets/images/person.svg" alt="" class="icons">
+                                    <input type="text" placeholder="John Doe" id="fullname" class="inputs_Value">
+                              </div>
 
-            <form action="" method="post" class="form">
+                              <div class="label_input">
+                                    <label class="label Email" for="">Email Address*</label>
+                                    <div class="fullname_Input">
+                                          <img src="../assets/images/message.svg" alt="" class="input_Icons">
+                                          <input type="text" placeholder="hello@example.com" id="Email Address"
+                                                class="inputs_Value">
+                                    </div>
 
-                    <div class="label_input">
-                        <label class="label fullname" for="">Full Name*</label>
-                        <div class="fullname_Input">
-                        <img src="../assets/images/person.svg" alt="" class="icons">
-                        <input type="text" placeholder="John Doe" id="fullname" class="inputs">
-                    </div>
-                    
-                    <div class="label_input">
-                        <label class="label Email" for="">Email Address*</label>
-                        <div class="fullname_Input">
-                        <img src="../assets/images/message.svg" alt="" class="icons">
-                        <input type="text" placeholder="hello@example.com" id="Email Address" class="inputs">
-                    </div>
+                                    <div class="label_input">
+                                          <label class="label password" for="">Password*</label>
+                                          <div class="fullname_Input">
+                                                <img src="../assets/images/password.svg" alt="" class="input_Icons">
+                                                <input type="password" placeholder="...." id="password"
+                                                      class="inputs_Value">
 
-                    <div class="label_input">
-                        <label class="label password" for="">Password*</label>
-                        <div class="fullname_Input">
-                        <img src="../assets/images/password.svg" alt="" class="icons">
-                        <input type="password" placeholder="...." id="password" class="inputs">
-                        
-                    </div>  
-                    <p>Password must be at least 6 characters long</p>  
-            </form>
-
-
-
-             <div class="help_Create_button_section">
-                <button class="botton help_button">
-                  <i class="fa-solid fa-circle-info font-icon"></i>
-                  <span>Help?</span>
-                </button>
-                <button class="botton create_botton">Create Account</button>
-
-             </div>
-             
-            <p class="policy"> By continuing, you gree to our <a href="#">Terms of Service</a> Privacy Policy</p>
-            <p class="copyright">&copy; 2024 TaskMaster | Made for University Students </p>
-
-        </section>
+                                          </div>
+                                          <p>Password must be at least 6 characters long</p>
+                  </form>
 
 
-    </main>
+
+                  <div class="help_Create_Button_Section">
+                        <button class="botton_General help_Button">
+                              <i class="fa-solid fa-circle-info font-Icon"></i>
+                              <span>Help?</span>
+                        </button>
+                        <button class="botton_General create_Button">Create Account</button>
+
+                  </div>
+
+                  <p class="privacy_Policy"> By continuing, you gree to our <a href="#">Terms of Service</a> & <a
+                              href="#">Privacy Policy</a> </p>
+                  <p class="copyright_Paragraph">&copy; 2024 TaskMaster | Made for University Students </p>
+
+            </section>
+
+
+      </main>
+      <script src="../assets/js/global.js"></script>
 </body>
+
 </html>
