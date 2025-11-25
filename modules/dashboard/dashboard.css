@@ -127,7 +127,7 @@ background-color: var(--button_background);
 }
 
 .dashboard_Icons:hover{
-    color: var(--purple_color);
+    fill: var(--purple_color);
 }
 .logout_Container{
     display: flex;
@@ -145,11 +145,19 @@ background-color: var(--button_background);
 /*Main*/
 
 .dashbord_Main_Container h1{
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   color: var(--heading-color);
   padding: 0.5rem;
-  margin: 10px;
+  margin: 2rem 1rem 0px 1rem;
+}
+
+.dashbord_Main_Container p{
+    padding: 0 2rem;
+    color: oklch(0.551 0.027 264.364);
+    font-size: 1.6rem;
+    color: var();
+    margin: 0;
 }
 
 
