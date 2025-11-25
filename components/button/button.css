@@ -1,0 +1,16 @@
+.button_Section {
+    border: none;
+    padding: 0.5rem 7.5rem;
+    background-color: var(--button_background);
+    /* border: 2px solid red; */
+    border-radius: 0.8rem;
+    color: rgb(30, 41, 59);
+    font-weight: 500;
+    font-size: 1.4rem;
+
+}
+
+#login_Button {
+    background-color: var(--btn_color);
+    
+}
