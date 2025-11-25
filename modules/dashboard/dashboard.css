@@ -5,6 +5,7 @@
     --btn_color: #FFFFFF;
     --yellow_color: #E6A300;
     --red_color: oklch(0.505 0.213 27.518);
+    --purple_color:#4F39F6;
 
 
 
@@ -116,12 +117,24 @@ background-color: var(--button_background);
    
 }
 
+.dashboard_Settings_Dashboard_Container :hover{
+    color: var(--purple_color);
+}
+
+.dashboard_Icons{
+    width: 22px;
+    height: 22px;
+}
+
+.dashboard_Icons:hover{
+    color: var(--purple_color);
+}
 .logout_Container{
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    border-bottom: 1px solid var(--button_background);
-    border-top: 1px solid var(--button_background);
+    border-bottom: 3px solid var(--button_background);
+    border-top: 2px solid var(--button_background);
     padding: 2rem 2rem;
     color: var(--red_color);
     font-weight: 500;
@@ -129,7 +142,17 @@ background-color: var(--button_background);
     
 }
 
-.dashboard_Icons{
-    width: 22px;
-    height: 22px;
+/*Main*/
+
+.dashbord_Main_Container h1{
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  padding: 0.5rem;
+  margin: 10px;
 }
+
+
+
+
+
