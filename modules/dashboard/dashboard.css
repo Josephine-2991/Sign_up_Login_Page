@@ -160,7 +160,22 @@ background-color: var(--button_background);
     margin: 0;
 }
 
+/*card container section*/
+.cards_Container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:10px;
 
+}
+.cards_Container_Cards{
+    height: 210px;
+    border: 2px solid red;
+}
+
+/* .cards_Container_Cards:nth-of-type(5){
+    grid-column: 1/3;
+    grid-row: 1/3;
+} */
 
 
 
