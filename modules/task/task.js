@@ -7,6 +7,7 @@ const task_Button = document.querySelector(".task_Button")
 const add_Task_Button= document.querySelector(".add_Task_Button")
 console.log(add_Task_Button)
 const  task_Window_Modal= document.querySelector(".task_Window_Modal")
+const  history_Button = document.querySelector(".history_Button ")
 
 
 let ai_summary_Display=()=>{
@@ -109,3 +110,8 @@ function add_Task(){
 }
 
 add_Task_Button.addEventListener("click", add_Task)
+
+function history_Display(){
+      
+}
+history_Button.addEventListener("click", history_Display )
