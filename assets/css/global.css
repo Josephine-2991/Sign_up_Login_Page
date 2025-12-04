@@ -18,7 +18,12 @@
     
 }
 
-
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .main_Animation{
     width: 100vw;
     background-image: url("../images/savor-attic-62132250.figma.site_\ \(1\).png");
@@ -30,7 +35,7 @@
     justify-content: center;
     align-items: center;
     padding: 20rem;
-    border: 2px solid red;
+    
 }
 
 .signup_Display{
@@ -43,6 +48,7 @@
     flex-direction: column;
     padding: 2.6rem;
     background-color: var(--btn_color);
+
    
 }
 
@@ -95,7 +101,7 @@
     gap: 1rem;
     padding: 0.5rem;
     width: 100%; */
-    border: 2px solid red;
+    margin-top: 3rem;
 
 }
 .button_Section{ 

@@ -248,6 +248,9 @@ main {
 }
 
 /*______ACTIVE_COMPLETED_SESSION_____*/
+.ai_Section_container{
+    display: none;
+}
 
 .active_Completed_Session{
     display: flex;
@@ -564,6 +567,7 @@ border-radius: 1rem;
     width: 24%;
     padding: 1rem;
     border-radius: 0.5rem;
+    margin: 2rem;
     
 }
 
