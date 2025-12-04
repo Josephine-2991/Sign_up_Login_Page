@@ -28,7 +28,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding: 20rem;
+    border: 2px solid red;
 }
 
 .signup_Display{
@@ -72,7 +74,7 @@
 }
 
 /*Button_Section*/
-.button_Section_Parent{
+/* .button_Section_Parent{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,21 +83,22 @@
     width: 30rem;
     align-self: center;
         
-        /* border: 2px sold red; */
+        
 
-}
-.button_Section_Child{
-    background-color: var(--button_background);
+} */
+ .button_Section_Child{
+    /* background-color: var(--button_background);
     border-radius: 0.8rem;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
     padding: 0.5rem;
-    width: 100%;
+    width: 100%; */
+    border: 2px solid red;
 
 }
-.button_Section{
+.button_Section{ 
     border:none;
     padding: 0.5rem 7.5rem;
     background-color: var(--button_background);
@@ -104,7 +107,7 @@
     color:rgb(30, 41, 59);
     font-weight: 500;
     font-size: 1.4rem;
-    }
+    } 
 
  #login_Button{
     background-color: var(--btn_color);
