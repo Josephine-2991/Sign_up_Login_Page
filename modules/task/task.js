@@ -1,7 +1,10 @@
+/*Declare Variables*/
 const ai_Summary=document.querySelector(".summary_Button")
 const active_Completed_Session= document.querySelector(".active_Completed_Session")
 const task_Window= document.querySelector(".task_Window")
 const ai_Section_container= document.querySelector(".ai_Section_container")
+const task_Button = document.querySelector(".task_Button")
+const  add_Task_Button= document.querySelector(".add_Task_Button")
 
 
 let ai_summary_Display=()=>{
@@ -70,3 +73,35 @@ let ai_summary_Display=()=>{
 
 /*click the ai_summary_Button*/
 ai_Summary.addEventListener("click", ai_summary_Display)
+
+
+function task_Display(){
+    ai_Section_container.style.display='none'
+    active_Completed_Session.innerHTML=`
+                    <div class="active_Completed_Session_Status">
+                        <div class="active_Details">
+                            <p class="active_Task_Count">0</p>
+                            <p class="active_Task_Status">Active tasks</p>
+                        </div>
+                        
+                        <div class="completed_details">
+                            <p class="completed_Task_Count">0</p>
+                            <p class="completed_Task_Status">Completed</p>
+                        </div>
+                    </div>
+
+                    <button class="add_Task_Button"> Add Task</button>
+                    
+    `
+    task_Window.style.display='flex'
+}
+
+/*click the My task_Display_Button*/
+task_Button.addEventListener("click", task_Display)
+
+
+Function add_Task(){
+    
+}
+
+add_Task_Button.addEventListener("click", add_Task)
