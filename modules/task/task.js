@@ -4,7 +4,9 @@ const active_Completed_Session= document.querySelector(".active_Completed_Sessio
 const task_Window= document.querySelector(".task_Window")
 const ai_Section_container= document.querySelector(".ai_Section_container")
 const task_Button = document.querySelector(".task_Button")
-const  add_Task_Button= document.querySelector(".add_Task_Button")
+const add_Task_Button= document.querySelector(".add_Task_Button")
+console.log(add_Task_Button)
+const  task_Window_Modal= document.querySelector(".task_Window_Modal")
 
 
 let ai_summary_Display=()=>{
@@ -100,8 +102,10 @@ function task_Display(){
 task_Button.addEventListener("click", task_Display)
 
 
-Function add_Task(){
-    
+function add_Task(){
+    task_Window_Modal.style.display='flex'
+   
+
 }
 
 add_Task_Button.addEventListener("click", add_Task)
